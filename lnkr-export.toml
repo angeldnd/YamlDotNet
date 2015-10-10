@@ -1,0 +1,8 @@
+ext-root = "Assets/Standard Assets/_Ext"
+ext-version = "Latest"
+
+[ext-yaml]
+[[ext-yaml.files]]
+from = "Releases/${ext-version}"
+to = "${ext-root}"
+include = "YamlDotNet.*"

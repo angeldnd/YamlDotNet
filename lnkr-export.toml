@@ -1,4 +1,5 @@
 ext-root = "Assets/Standard Assets/_Ext"
+ext-editor-root = "Assets/Standard Assets/Editor/_ExtEditor"
 ext-version = "Latest"
 
 [ext-yaml]
@@ -6,3 +7,10 @@ ext-version = "Latest"
 from = "Releases/${ext-version}"
 to = "${ext-root}"
 include = "YamlDotNet.*"
+
+[ext-editor-yaml]
+[[ext-editor-yaml.files]]
+from = "Releases/${ext-version}"
+to = "${ext-editor-root}"
+include = "YamlDotNet.*"
+

@@ -1,7 +1,3 @@
-ext-root = "Assets/Standard Assets/_Ext"
-ext-editor-root = "Assets/Standard Assets/Editor/_ExtEditor"
-ext-version = "Latest"
-
 [ext-yaml]
 [[ext-yaml.files]]
 from = "Releases/${ext-version}"

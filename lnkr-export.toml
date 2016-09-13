@@ -1,12 +1,12 @@
 [ext-yaml]
 [[ext-yaml.files]]
-from = "Releases/${ext-version}"
+from = "Releases/Latest"
 to = "${ext-root}"
 include = "YamlDotNet.*"
 
 [ext-editor-yaml]
 [[ext-editor-yaml.files]]
-from = "Releases/${ext-version}"
+from = "Releases/Latest"
 to = "${ext-editor-root}"
 include = "YamlDotNet.*"
 
